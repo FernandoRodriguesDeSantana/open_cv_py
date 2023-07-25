@@ -40,7 +40,7 @@ resized_image = cv2.resize(image, new_size, interpolation = cv2.INTER_AREA)
 cv2.imshow("A little cute dog", resized_image)
 cv2.waitKey(0)
 
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) #black and white image
 cv2.imshow("A gray cute dog", gray)
 cv2.waitKey(0)
 
